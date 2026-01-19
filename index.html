@@ -1,0 +1,26 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piano Sim</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Press A / S / D</h1>
+
+<!-- Keys UI -->
+    <div class="keys">
+        <div class="key" data-key="a">🐍</div>
+        <div class="key" data-key="s">🦵</div>
+        <div class="key" data-key="d">💥</div>
+    </div>
+    <button id="enable">Enable sound</button>
+
+<!-- Sounds -->
+    <audio src="https://raw.githubusercontent.com/ArunMichaelDsouza/javascript-30-course/master/src/01-javascript-drum-kit/sounds/snare.wav" data-key="a"></audio>
+    <audio src="https://raw.githubusercontent.com/ArunMichaelDsouza/javascript-30-course/master/src/01-javascript-drum-kit/sounds/kick.wav" data-key="s"></audio>
+    <audio src="https://raw.githubusercontent.com/ArunMichaelDsouza/javascript-30-course/master/src/01-javascript-drum-kit/sounds/tom-high.wav" data-key="d"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
