@@ -6,20 +6,48 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Press A / S / D</h1>
+    <!-- Dynamic Background Elements -->
+    <div class="blood-pulse"></div>
+    <div class="creeping-shadow"></div>
+    <div class="glitch-overlay"></div>
+    
+    <h1>Sounds of absolute horror</h1>
 
 <!-- Keys UI -->
     <div class="keys">
-        <div class="key" data-key="a">🐍</div>
-        <div class="key" data-key="s">🦵</div>
-        <div class="key" data-key="d">💥</div>
+        <div>
+            <div class="key" data-key="s">S 🐍</div> 
+            <div class="key" data-key="c">C 🐱</div>
+            <div class="key" data-key="h">H 👻</div>
+        </div>
+        <div>
+            <div class="key" data-key="d">D 🐉</div>
+            <div class="key" data-key="1">1 🚪</div>
+            <div class="key" data-key="2">2 ✊</div>
+        </div>
+        <div>
+            <div class="key" data-key="3">3 ✊</div>
+            
+        </div>
+
+
     </div>
     <button id="enable">Enable sound</button>
 
 <!-- Sounds -->
-    <audio src="https://raw.githubusercontent.com/ArunMichaelDsouza/javascript-30-course/master/src/01-javascript-drum-kit/sounds/snare.wav" data-key="a"></audio>
-    <audio src="https://raw.githubusercontent.com/ArunMichaelDsouza/javascript-30-course/master/src/01-javascript-drum-kit/sounds/kick.wav" data-key="s"></audio>
-    <audio src="https://raw.githubusercontent.com/ArunMichaelDsouza/javascript-30-course/master/src/01-javascript-drum-kit/sounds/tom-high.wav" data-key="d"></audio>
+    <audio src="snake-rattle-sound-hq-240150.mp3" data-key="s"></audio>
+    <audio src="cat-meow-401729.mp3" data-key="c"></audio>
+    <audio src="epic-dragon-roar-364481.mp3" data-key="d"></audio>
+    <audio src="opening-door-450444.mp3" data-key="1"></audio>
+    <audio src="knocking-door-2-397993.mp3" data-key="2"></audio>
+    <audio src="thriller-score-horror-scene-6730.mp3" data-key="h"></audio>
+    <audio src="male-voice-screaming-loudly-6147.mp3" data-key="3"></audio>
+    <audio src="thriller-score-horror-scene-6730.mp3" data-key="h"></audio>
+
+
+
+
+
 
     <script src="script.js"></script>
 </body>
