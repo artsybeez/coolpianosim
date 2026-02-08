@@ -5,7 +5,6 @@
       alert("Sound enabled. Use your keyboard.");
     });
 
-    // Create dynamic background elements
     function createBloodDrip() {
         const drip = document.createElement('div');
         drip.className = 'blood-drip';
@@ -45,9 +44,7 @@
         }, 30000);
     }
 
-    // Initialize background animations
     function startBackgroundAnimations() {
-        // Create initial elements
         for (let i = 0; i < 3; i++) {
             setTimeout(() => createBloodDrip(), i * 1000);
         }
@@ -56,13 +53,11 @@
         }
         createCreepingShadow();
 
-        // Continue creating elements periodically
         setInterval(createBloodDrip, 2000);
         setInterval(createFloatingSpirit, 8000);
         setInterval(createCreepingShadow, 15000);
     }
 
-    // Start animations when page loads
     window.addEventListener('load', startBackgroundAnimations);
 
     document.addEventListener("keydown", (e) => {
